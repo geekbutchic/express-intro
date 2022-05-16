@@ -18,3 +18,9 @@
 * Change the port to 4000 instead of 3000, navigate to localhost:3000 to see what happens, navigate to localhost:4000 to see what happens. ✅
 
 * It changes the Port to 4000 - 3000 is no longer working.  It says terminal app listening on port 4000. ✅
+
+### Part-3
+
+* Change the code in res.send to send your name as a string to the browser, navigate to localhost:4000 to see your updates. ✅ 
+* Create a catch-all error route that returns a 404 status to the browser when the route is not found. Navigate to http://localhost:4000/anyotherpage to test if this route is working. ✅ 
+* Stretch goal: Add more routes that return various status codes and responses to the browser. 
