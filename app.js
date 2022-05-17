@@ -7,9 +7,9 @@ app.get("/name", (req, res) => {
   //MUST SEND A RESPONSE OR IT WILL HANG
 });
 
-// app.get("*", (req, res) => {
-//     res.send("Wild Card!")
-// })
+app.get("*", (req, res) => {
+    res.send("Wild Card!")
+})
 
 app.get("/sonny", (req,res) => {
     res.send("Phone number is 917-831-8317!")
